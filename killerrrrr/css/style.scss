@@ -85,7 +85,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-home: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -148,7 +148,7 @@ section {
   display: none;
 }
 
-.index {
+.home {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -363,7 +363,7 @@ section {
         background: $white;
         color: $black;
         pointer-events: none;
-        z-index: 10;
+        z-home: 10;
       }
     }
 
@@ -388,7 +388,7 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10000;
+  z-home: 10000;
   background: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
@@ -453,7 +453,7 @@ section {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        z-index: 10;
+        z-home: 10;
         overflow: hidden;
         transform: translateY(-100%);
 

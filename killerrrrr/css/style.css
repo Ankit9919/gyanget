@@ -73,7 +73,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-home: 1000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,7 +140,7 @@ section {
   display: none;
 }
 
-.index {
+.home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,28 +152,28 @@ section {
   gap: 2rem;
 }
 
-.index .image {
+.home .image {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
   flex: 1 1 42rem;
 }
 
-.index .image img {
+.home .image img {
   width: 100%;
 }
 
-.index .content {
+.home .content {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
   flex: 1 1 42rem;
 }
 
-.index .content h3 {
+.home .content h3 {
   color: #302851;
   font-size: 5rem;
 }
 
-.index .content p {
+.home .content p {
   font-size: 1.4rem;
   color: #666;
   padding: 1rem 0;
@@ -447,7 +447,7 @@ section {
   background: #fff;
   color: #302851;
   pointer-events: none;
-  z-index: 10;
+  z-home: 10;
 }
 
 .course-3 .box .content {
@@ -469,7 +469,7 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10000;
+  z-home: 10000;
   background: rgba(0, 0, 0, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -558,7 +558,7 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  z-index: 10;
+  z-home: 10;
   overflow: hidden;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
