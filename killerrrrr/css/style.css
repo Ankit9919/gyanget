@@ -14,6 +14,11 @@
   transition: all .2s linear;
 }
 
+body {
+
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -219,8 +224,8 @@ section {
 }
 
 .categoryo .box {
-  border-radius: 4rem;
-  background: #f5f5f5;
+  border-radius: 21rem;
+  background: #23cbc2;
   padding: 4rem 3rem;
   text-align: center;
 }
