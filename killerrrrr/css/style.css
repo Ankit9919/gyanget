@@ -33,7 +33,7 @@ section {
   margin-top: 1rem;
   padding: 1rem 3rem;
   background: #e9edfb;
-  color: #224bcf;
+  color: linear-gradient(135deg, #1e9ef4, #c5f65c);
   cursor: pointer;
   border-radius: .5rem;
   font-size: 1.7rem;
@@ -41,7 +41,7 @@ section {
 
 .btn:hover {
   color: #fff;
-  background: #224bcf;
+  background: linear-gradient(135deg, #1e9ef4, #c5f65c);
 }
 
 .heading {
@@ -69,7 +69,7 @@ section {
 }
 
 .heading p a:hover {
-  color: #224bcf;
+  color: linear-gradient(135deg, #1e9ef4, #c5f65c);
 }
 
 .header {
@@ -131,7 +131,7 @@ section {
   position: absolute;
   left: 0;
   width: 20rem;
-  background: #224bcf;
+  background: linear-gradient(135deg, #1e9ef4, #c5f65c);
   display: none;
 }
 
@@ -651,12 +651,12 @@ section {
 }
 
 .blog .box .content .icons a:hover {
-  color: #224bcf;
+  color: linear-gradient(135deg, #1e9ef4, #c5f65c);
 }
 
 .blog .box .content .icons a i {
   padding-right: .5rem;
-  color: #224bcf;
+  color: linear-gradient(135deg, #1e9ef4, #c5f65c);
 }
 
 .blog .box .content h3 {
@@ -693,7 +693,7 @@ section {
   width: 6.5rem;
   line-height: 6.5rem;
   font-size: 2.5rem;
-  color: #224bcf;
+  color: linear-gradient(135deg, #1e9ef4, #c5f65c);
   background: #e9edfb;
   border-radius: 50%;
   text-align: center;
@@ -837,7 +837,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: #224bcf;
+    background: linear-gradient(135deg, #1e9ef4, #c5f65c);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
