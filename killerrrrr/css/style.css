@@ -89,7 +89,8 @@ section {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 9%;
-  background: #224bcf;
+
+  background: linear-gradient(135deg, #1e9ef4, #c5f65c);
 }
 
 .header .logo {
